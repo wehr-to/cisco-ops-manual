@@ -29,6 +29,3 @@ Each file includes:
 - A brief explanation
 - Real-world context or example lab output
 - Notes on when/why to use it
-
-## Folder Structure
-
