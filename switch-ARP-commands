@@ -1,0 +1,6 @@
+show mac address-table = displays learned MACs and their interfaces
+clear mac address-table dynamic = clears all dynamic MAC entries
+clear mac address-table dynamic interface <interface> = clear entries for a specific port 
+clear mac address-table dynamic address <MAC> = clears entries for a specific MAC 
+show arp = cisco command to view IP-MAC bindings
+arp -a = view IP mac bindings on windows/mac/linux
