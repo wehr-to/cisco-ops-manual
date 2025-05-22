@@ -1,0 +1,14 @@
+vlan <vlan-id> = create a VLAN 
+name <name> (under vlan config mode) = assign a name to the VLAN 
+switchport mode access = sets port to access mode 
+switchport access vlan <vlan-id> = assign access port to a specific VLAN 
+switchport mode trunk = sets port to trunk mode 
+switchport trunk encapsulation dot1q = sets trunk encapsulation
+switchport trunk native vlan <vlan-id> = changes the native VLAN for a trunk port 
+switchport trunk allowed vlan <list> = limits which VLANs are allowed on the trunk 
+show interfaces trunk = view trunk ports, VLANs allowed, native VLAN info
+no switchport = converts a switchport into a layer 3 routed port
+ip roting = enables L3 routing on a multilayer switch
+encapsulation dot1q <vlan-id> = Tags a router subinterface for VLAN X
+encapsulation dot1q <vlan-id> native = Tags router subinterface as the native VLAN
+default interface <int> = Resets a port to its default config 
