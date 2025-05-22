@@ -1,0 +1,11 @@
+speed 100 = Sets the interface speed to 100 Mbps
+duplex full = sets the interface to full duplex 
+interface range = allows configuration of multiple interfaces
+
+# helpful reference 
+Giants = Frames larger than 1518 bytes
+Runts = Frames smaller than 64 bytes 
+CRC = Frames failed CRC check in the FCS trailer 
+frame = Frames with illegal or malformed formatting 
+Output errors = frames the switch failed to transmit 
+input errors = total count of all receive-side issues (CRC, runts, giants, etc)
