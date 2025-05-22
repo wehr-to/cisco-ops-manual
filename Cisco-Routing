@@ -1,0 +1,9 @@
+# Static Routing 
+show ip route = displays the routers IPv4 routing table 
+ip route 0.0.0.0 0.0.0.0 <next-hop> = configures a default route using next-hop IP
+ip route <net> <mask> <next-hop> = creates a static route with a next-hop IP
+ip route <net> <mask> <interface> = creates a static route using the exit interface
+ip route <net> <mask> <interface> <next-hop> = creates a static route using both interface and next-hop
+
+# Dynamic Routing 
+
