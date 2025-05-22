@@ -1,0 +1,6 @@
+description <description> = sets a description on the interface (in config-if mode)
+ip address <ip-address> <subnet-mask> = assings an IP and subnet mask to an interface
+show interfaces description = displays the configured descriptions for all interfaces
+show ip interface brief = displays interface status (layer 1) and protocol (layer 2) for all ports
+shutdown (config-if mode) = administratively disables the interface (status = administratively down) 
+no shutdown (config-if mode) = re-enables an interface that was shut down 
