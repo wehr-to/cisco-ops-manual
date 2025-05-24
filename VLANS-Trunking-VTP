@@ -12,3 +12,5 @@ ip roting = enables L3 routing on a multilayer switch
 encapsulation dot1q <vlan-id> = Tags a router subinterface for VLAN X
 encapsulation dot1q <vlan-id> native = Tags router subinterface as the native VLAN
 default interface <int> = Resets a port to its default config 
+
+test
