@@ -1,0 +1,22 @@
+show wireless interface summary = show status of wireless interfaces
+show controllers dot11Radio 0 = view radio-specific configurations 
+show dot11 associations = show associated clients 
+debug dot11 mobility = view roaming and association events
+show run = section dot11
+show ap summary = show wireless stats
+show capwap client rssi = show wireless stats
+show wireless security mfp = view 802.11 management protection 
+show capwap client config = check CAPWAP tunnel status 
+debug capwap events = Check CAPWAP tunnel status 
+show ap rogue summary = view rogue devices or passive AP modes
+show ap mode summary = view rogue devices or passive AP modes
+show dot11 security = Check WP settings on AP 
+show run | include SSID = check WPA settings on AP 
+show wlan summary = view authentication and key types  
+show wlan <id> = view authentication and key types 
+debug client <mac-address> - view authentication and key types
+show wlan <id> = view WLAN settings (security, QoS, VLAN) 
+show interface summary = List WLC interfaces
+show interface detailed <int> = inspect CAPWAP, DHCP relay, and VLAN settings 
+show AP summary = view AP to WLC tunnel status 
+show client detail <mac> check auth method, state, and assigned VLAN 
