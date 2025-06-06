@@ -1,0 +1,16 @@
+# Configure a description on an interface:
+interface [interface-id]
+ description [text]
+e.g.
+interface GigabitEthernet0/1
+ description ## to SW1 ##
+
+# Configure an IP address on an interface:
+interface [interface-id]
+ ip address [ip-address] [subnet-mask]
+e.g.
+interface GigabitEthernet0/1
+ ip address 192.168.0.254 255.255.255.0
+
+# Show interface descriptions:
+show interfaces description
