@@ -1,0 +1,17 @@
+# Clear all dynamic MAC addresses from the MAC Address Table:
+clear mac address-table dynamic
+
+# Clear all dynamic MAC addresses on a specific interface:
+clear mac address-table dynamic interface [interface-id]
+
+# Clear all entries for a specific dynamic MAC address:
+clear mac address-table dynamic address [mac-address]
+
+# Show the ARP table on a Cisco device:
+show arp
+
+# Show the MAC Address Table:
+show mac address-table
+
+# View ARP table on Windows/macOS/Linux:
+arp -a
