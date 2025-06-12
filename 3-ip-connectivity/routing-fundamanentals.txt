@@ -1,0 +1,19 @@
+Show the routing table:
+R1# [...]
+show ip route
+
+Configure a default route, specifying the next-hop IP:
+R1(config)# [...]
+ip route 0.0.0.0 0.0.0.0 next-hop
+
+Configure a static route, specifying the exit-interface and next-hop IP:
+R1(config)# [...]
+ip route ip-address netmask exit-interface next-hop
+
+Configure a static route, specifying the exit-interface:
+R1(config)# [...]
+ip route ip-address netmask exit-interface
+
+Configure a static route, specifying the next-hop IP:
+R1(config)# [...]
+ip route ip-address netmask next-hop
